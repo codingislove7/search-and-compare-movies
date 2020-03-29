@@ -5,6 +5,6 @@ const fetchData = async () => {
       s: "avengers"
     }
   });
-  console.log(response);
+  console.log(response.data);
 };
 fetchData();
